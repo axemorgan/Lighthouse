@@ -1,0 +1,9 @@
+#!/bin/bash
+osascript <<EOF
+tell application "System Events"
+  key code 126
+#  delay 0.5
+end tell
+EOF
+
+date
