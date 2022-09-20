@@ -1,8 +1,7 @@
 #!/bin/bash
 osascript <<EOF
 tell application "System Events"
-  key code 126
-#  delay 0.5
+  key code 100
 end tell
 EOF
 
